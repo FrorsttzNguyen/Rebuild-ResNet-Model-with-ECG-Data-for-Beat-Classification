@@ -1,0 +1,22 @@
+{
+    "in_length": 320,
+    "fs": 100,
+    "in_channels": 1,
+    "n_grps": 3,
+    "num_classes": 5,
+    "N": 4,
+    "dropout": 0.3,
+    "first_width": 32,
+    "stride": [2, 1, 2, 1],
+    "dilation": 100,
+    "learning_rate": 0.0001,
+    "batch_size": 32,
+    "epochs": 60,
+    "pre_train_model": "/home/ai_dev_01/ECGCaptioning/ecg_captioning/training/transformertopic/models/checkpoints/before/epoch=24-step=169400.ckpt",
+    "train_labels_csv": "/usr/diem/Documents/code/mit_beat_classification/train_test/train.csv",
+    "test_labels_csv": "/usr/diem/Documents/code/mit_beat_classification/train_test/test.csv",
+    "val_labels_csv": "//usr/diem/Documents/code/mit_beat_classification/train_test/val.csv",
+    "data_dir": "/usr/diem/Documents/data/mit",
+    "pre_train": true,
+    "dict_label": {"N": 0, "L": 1, "R": 2, "V": 3, "A":  4}
+}
